@@ -7,13 +7,18 @@
 //
 
 #import "Ex10AppDelegate.h"
+#import "MyUIViewController.h"
 
 @implementation Ex10AppDelegate
 
 @synthesize window = _window;
 
+MyUIViewController *vc;
+
+
 - (void)dealloc
 {
+
     [_window release];
     [super dealloc];
 }
@@ -23,6 +28,10 @@
     self.window = [[[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]] autorelease];
     // Override point for customization after application launch.
     self.window.backgroundColor = [UIColor whiteColor];
+    vc = [[MyUIViewController alloc] initWithNibName:@"MyUIViewController" bundle:nil];
+  
+    self.window.rootViewController = vc;
+    
     [self.window makeKeyAndVisible];
     return YES;
 }

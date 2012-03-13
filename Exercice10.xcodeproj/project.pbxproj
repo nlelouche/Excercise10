@@ -13,6 +13,8 @@
 		EA3DD36C150A3959009F9587 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = EA3DD36A150A3959009F9587 /* InfoPlist.strings */; };
 		EA3DD36E150A3959009F9587 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EA3DD36D150A3959009F9587 /* main.m */; };
 		EA3DD372150A3959009F9587 /* Ex10AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EA3DD371150A3959009F9587 /* Ex10AppDelegate.m */; };
+		EA3DD380150A39B7009F9587 /* MyUIViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EA3DD37E150A39B7009F9587 /* MyUIViewController.m */; };
+		EA3DD381150A39B7009F9587 /* MyUIViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = EA3DD37F150A39B7009F9587 /* MyUIViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,12 +22,15 @@
 		EA3DD361150A3959009F9587 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		EA3DD363150A3959009F9587 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		EA3DD365150A3959009F9587 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		EA3DD369150A3959009F9587 /* Exercice10-Info.plist */ = {isa = PBXFileReference; path = "Exercice10-Info.plist"; sourceTree = "<group>"; };
+		EA3DD369150A3959009F9587 /* Exercice10-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Exercice10-Info.plist"; sourceTree = "<group>"; };
 		EA3DD36B150A3959009F9587 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		EA3DD36D150A3959009F9587 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		EA3DD36F150A3959009F9587 /* Exercice10-Prefix.pch */ = {isa = PBXFileReference; path = "Exercice10-Prefix.pch"; sourceTree = "<group>"; };
-		EA3DD370150A3959009F9587 /* Ex10AppDelegate.h */ = {isa = PBXFileReference; path = Ex10AppDelegate.h; sourceTree = "<group>"; };
+		EA3DD36F150A3959009F9587 /* Exercice10-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Exercice10-Prefix.pch"; sourceTree = "<group>"; };
+		EA3DD370150A3959009F9587 /* Ex10AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Ex10AppDelegate.h; sourceTree = "<group>"; };
 		EA3DD371150A3959009F9587 /* Ex10AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Ex10AppDelegate.m; sourceTree = "<group>"; };
+		EA3DD37D150A39B7009F9587 /* MyUIViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyUIViewController.h; sourceTree = "<group>"; };
+		EA3DD37E150A39B7009F9587 /* MyUIViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyUIViewController.m; sourceTree = "<group>"; };
+		EA3DD37F150A39B7009F9587 /* MyUIViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MyUIViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,6 +91,9 @@
 				EA3DD36A150A3959009F9587 /* InfoPlist.strings */,
 				EA3DD36D150A3959009F9587 /* main.m */,
 				EA3DD36F150A3959009F9587 /* Exercice10-Prefix.pch */,
+				EA3DD37D150A39B7009F9587 /* MyUIViewController.h */,
+				EA3DD37E150A39B7009F9587 /* MyUIViewController.m */,
+				EA3DD37F150A39B7009F9587 /* MyUIViewController.xib */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -141,6 +149,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				EA3DD36C150A3959009F9587 /* InfoPlist.strings in Resources */,
+				EA3DD381150A39B7009F9587 /* MyUIViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -153,6 +162,7 @@
 			files = (
 				EA3DD36E150A3959009F9587 /* main.m in Sources */,
 				EA3DD372150A3959009F9587 /* Ex10AppDelegate.m in Sources */,
+				EA3DD380150A39B7009F9587 /* MyUIViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
