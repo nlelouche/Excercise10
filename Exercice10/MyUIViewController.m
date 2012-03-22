@@ -13,8 +13,7 @@
 @synthesize myButton = _myButton;
 @synthesize myPicker = _myPicker;
 @synthesize myTextField = _myTextField;
-
-NSMutableArray *fileNames;
+@synthesize fileNames;
 
 -(IBAction)saveTextToFile:(id)sender{
     
